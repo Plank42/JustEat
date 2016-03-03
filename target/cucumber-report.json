@@ -1,0 +1,49 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Search for restaurants in an area",
+        "description": "",
+        "id": "use-the-website-to-find-restaurants;search-for-restaurants-in-an-area",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "I want food in \"AR51 1AA\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I search for restaurants",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I should see some restaurants in \"AR51 1AA\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Use the website to find restaurants",
+    "description": "So that I can order food\r\nAs a hungry customer\r\nI want to be able to find restaurants in my area",
+    "id": "use-the-website-to-find-restaurants",
+    "keyword": "Feature",
+    "uri": "test.feature"
+  }
+]
